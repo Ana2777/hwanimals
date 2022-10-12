@@ -13,10 +13,16 @@ public class Herbivores extends Mammals{
     public void setTypeOfFood(String typeOfFood) {
         this.typeOfFood = typeOfFood;
     }
-
+public void base (){
+    System.out.println("Название животного " + getNickname());
+    System.out.println("Возраст " + getAge());
+    System.out.println("Среда проживания " + getLivingEnvironment());
+    System.out.println("Скорость перемещения " + getMovementSpeed());
+}
     @Override
     public void toEat() {
         super.toEat();
+        System.out.println("Тип пищи " + typeOfFood);
     }
 
     @Override
@@ -24,5 +30,8 @@ public class Herbivores extends Mammals{
         super.walk();
     }
 
-    void graze(){  }
+   public void graze(){
+        System.out.println("Пасется в поле и кушает траву");
+    }
+
 }

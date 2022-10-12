@@ -5,9 +5,13 @@ public class FlightlessBirds extends Birds{
         super(nickname, age, livingEnvironment);
 
     }
-
-   void walk(){
-
+    public void base4(){
+        System.out.println("Название животного " + getNickname());
+        System.out.println("Возраст " + getAge());
+        System.out.println("Среда проживания " + getLivingEnvironment());
+    }
+  public void walk(){
+       System.out.println("Не может летать. Ходит по земле.");
    }
 
     @Override
