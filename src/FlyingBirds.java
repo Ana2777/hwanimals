@@ -10,15 +10,7 @@ public class FlyingBirds extends Birds{
         System.out.println("Возраст " + getAge());
         System.out.println("Среда проживания " + getLivingEnvironment());
     }
-    @Override
-    public void toEat() {
-        super.toEat();
-    }
 
-    @Override
-    public void moveAround() {
-        super.moveAround();
-    }
 public void toFly(){
     System.out.println("Летит");
 }

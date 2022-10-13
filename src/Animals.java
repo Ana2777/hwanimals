@@ -28,6 +28,7 @@ public abstract class  Animals {
     public abstract void toEat();
 
     public void sleep(){
+        System.out.println("zzzzzzzz");
 
     }
     public abstract void moveAround();

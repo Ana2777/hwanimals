@@ -28,7 +28,6 @@ public class Birds extends Animals{
 
     }
 
-
     void hunt(){
 
     }

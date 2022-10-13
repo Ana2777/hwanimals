@@ -27,7 +27,7 @@ public void base (){
 
     @Override
     public void walk() {
-        super.walk();
+        System.out.println("Идти");
     }
 
    public void graze(){

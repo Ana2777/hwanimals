@@ -14,13 +14,4 @@ public class FlightlessBirds extends Birds{
        System.out.println("Не может летать. Ходит по земле.");
    }
 
-    @Override
-    public void toEat() {
-        super.toEat();
-    }
-
-    @Override
-    public void moveAround() {
-        super.moveAround();
-    }
 }
